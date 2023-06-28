@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Enumerable] <a name="about-project"></a>
+# 📖 [OOP-School-Library] <a name="about-project"></a>
 
 **[OOP-School-Library]** is an application that holds school library information. The application enables the one to add a new student, a teacher or a book and also store information of whoever borrows a book and when.
 
@@ -48,14 +48,6 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Creating project classes]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +88,7 @@ To run tests, run the following command:
 👤 **Oumaima Nejjari**
 
 - GitHub: [@aima98](https://github.com/aima98)
-- LinkedIn: [Oumaima Nejjari](https://www.linkedin.com/in/oumaima-nejjari-375065171/)
+- LinkedIn: [Oumaima Nejjari](https://www.linkedin.com/in/oumaimanejjari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +106,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/aima98/Enumerable/issues).
+Feel free to check the [issues page](https://github.com/aima98/OOP-School-Library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
