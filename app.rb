@@ -2,6 +2,11 @@ require './book'
 require './rental'
 require './student'
 require './teacher'
+require './create_student'
+require './create_teacher'
+require './main'
+require './list_rentals'
+require './rent_out_book'
 
 class App
   attr_accessor :books, :persons, :rentals

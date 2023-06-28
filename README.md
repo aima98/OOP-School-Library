@@ -6,11 +6,6 @@
   <h3><b>OOP School Library</b></h3>
 </div>
 
-<div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -73,7 +68,6 @@ Clone this repository to your desired folder:
   git clone https://github.com/aima98/OOP-School-Library.git
 ```
 
-```
 ### Run tests
 To run tests, run the following command:
 ```sh
