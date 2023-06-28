@@ -2,8 +2,6 @@ require './book'
 require './rental'
 require './student'
 require './teacher'
-require './create_student'
-require './create_teacher'
 require './main'
 require './list_rentals'
 require './rent_out_book'
@@ -97,19 +95,53 @@ class App
   end
 
   def create_a_person
-    print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
-    person_no = gets.chomp
+    puts 'Any person do you want to create ?'
+    puts '1 - Student'
+    puts '2 - Teacher'
+    print 'Input number : '
 
-    case person_no
-    when '1'
+    person_type = Integer(gets.chomp)
+
+    case person_type
+    when 1
       create_a_student
-    when '2'
+    when 2
       create_a_teacher
-    else
-      puts 'Invalid selection'
-      puts ''
     end
-    library_menu
+  end
+
+  def create_a_teacher
+    print "Teacher's specialization: "
+    specialization = gets.chomp
+    print 'Age: '
+    age = gets.chomp
+    print 'Name: '
+    name = gets.chomp
+    teacher = Teacher.new(specialization, name, age)
+    people << teacher
+    puts ''
+    puts '#=> Teacher created successfully'
+  end
+
+  def create_a_student
+    print 'Age: '
+    age = Integer(gets.chomp)
+    print 'Name: '
+    name = gets.chomp
+    print 'Parent permission? [y/n]: '
+    parent_permission = gets.chomp.downcase
+
+    case parent_permission
+    when 'n'
+      people << Student.new(nil, age, name, false)
+    when 'y'
+      people << Student.new(nil, age, name)
+    else
+      '#=> Invalid option, please try again'
+    end
+
+    puts ''
+    puts '#=> Student created successfully'
   end
 
   def create_a_rental
