@@ -3,6 +3,12 @@ require './app'
 class Main
   def main
     app = App.new
-    app.library_menu
+    loop do
+      options
+      num = gets.chomp
+      break if num == '7'
+  
+      select_option(app, num)
+      puts "\n"
   end
 end
