@@ -7,8 +7,9 @@ class Main
       options
       num = gets.chomp
       break if num == '7'
-  
+
       select_option(app, num)
       puts "\n"
+    end
   end
 end
