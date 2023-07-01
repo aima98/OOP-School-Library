@@ -6,11 +6,6 @@
   <h3><b>OOP School Library</b></h3>
 </div>
 
-<div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -22,7 +17,6 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-    - [Install](#install)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -58,7 +52,6 @@
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-
 In order to run this project you need:
 
 - Ruby
@@ -73,12 +66,18 @@ Clone this repository to your desired folder:
   git clone https://github.com/aima98/OOP-School-Library.git
 ```
 
-```
-### Run tests
-To run tests, run the following command:
+Run the main file:
+
 ```sh
-  rspec mylist_test.rb
+ruby ./main.rb
+
 ```
+
+### Run tests
+
+To run tests, run the following command:
+
+- Not available for now
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
