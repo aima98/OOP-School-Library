@@ -50,3 +50,5 @@ def main
 
   puts 'Thanks for using the app. Goodbye'
 end
+
+main
