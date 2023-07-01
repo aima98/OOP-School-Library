@@ -38,7 +38,7 @@ class App
     age = gets.chomp
     print 'Name: '
     name = gets.chomp
-    teacher = Teacher.new( age, specialization, name)
+    teacher = Teacher.new(age, specialization, name)
     people << teacher
     puts ''
     puts '#=> Teacher created successfully'
@@ -56,7 +56,7 @@ class App
     when 'n'
       people << Student.new(nil, age, name, parent_permission: false)
     when 'y'
-      people << Student.new(nil, age, name)
+      people << Student.new(nil, age, name, parent_permission: true)
     else
       '#=> Invalid option, please try again'
     end
