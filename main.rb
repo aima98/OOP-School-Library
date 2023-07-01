@@ -48,7 +48,7 @@ def main
     puts "\n"
   end
 
-  puts 'Thanks for using the app. Goodbye'
+  puts 'Goodbye'
 end
 
 main
